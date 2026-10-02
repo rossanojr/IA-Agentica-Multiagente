@@ -1,0 +1,29 @@
+virtualenv
+jupyter
+ipykernel
+ipywidgets
+nbformat
+numpy
+pandas
+matplotlib
+gradio==6.17.3
+fastmcp==4.0.10
+pydantic
+chromadb
+huggingface_hub==0.36.2
+
+# LangChain y base vectorial
+langchain>=0.3.27,<0.4.0
+langchain-community>=0.3.31,<0.4.0
+langchain-core>=0.3.72,<1.0.0
+langchain-chroma>=0.2.6,<0.3.0
+
+# Modelos de embeddings, vision y lenguaje (incluye soporte para Qwen)
+torch
+torchvision
+transformers>=4.45,<5.0
+sentence-transformers>=2.7,<3.0
+accelerate
+safetensors
+sentencepiece
+pillow

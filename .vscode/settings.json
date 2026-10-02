@@ -1,0 +1,30 @@
+{
+    "terminal.integrated.hideOnStartup": "always",
+    "terminal.integrated.enablePersistentSessions": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.overtypeControl": false,
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#0B1F3A",
+        "titleBar.inactiveBackground": "#071426",
+        "titleBar.border": "#0B1F3A",
+        "activityBar.background": "#0B1F3A",
+        "activityBar.border": "#0B1F3A",
+        "statusBar.background": "#0B1F3A",
+        "statusBar.border": "#0B1F3A",
+        "sideBar.border": "#0B1F3A",
+        "panel.border": "#0B1F3A",
+        "editorGroup.border": "#0B1F3A"
+	},
+	"python.testing.unittestArgs": [
+		"-v",
+		"-s",
+		".",
+		"-p",
+		"test*.py"
+	],
+	"python.testing.pytestEnabled": false,
+	"python.testing.unittestEnabled": true
+}
